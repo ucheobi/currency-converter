@@ -1,0 +1,19 @@
+{
+  "name": "hatch-converter-api",
+  "version": "1.0.0",
+  "description": "Currency conversion application for hatch GmbH",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Uche Anota",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  }
+}

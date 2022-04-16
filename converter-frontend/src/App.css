@@ -1,0 +1,297 @@
+.App-container {
+  height: 800px;
+  width: 1280px;
+  background-color: #252525;
+  margin: 0 auto;
+}
+
+.background-upper-half {
+  height: 400px;
+  width: 1280px;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 0;
+  top: 0;
+  background-color: #1A1A1A; 
+}
+
+
+.hatch-studio-logo-combination- {
+  height: 250px;
+  width: 123.15px;
+  position: relative;
+  z-index: 1;
+  margin: 40px 0 0 60px;
+}
+
+
+.headline {
+  height: 47px;
+  width: 571px;
+  color: #FFF;
+  font-family: 'Roboto', Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-left: 60px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.converter {
+  display: flex;
+  margin-top: 90px;
+  position: relative;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  width: 905px;
+  justify-content: center;
+  margin-left: 60px;
+  height: 128px;
+  padding: 28px 40px 0 40px;
+  border-radius: 15px;
+  background-color: #353535;
+}
+
+.input-field {
+  height: 64px;
+  width: 200px;
+  margin-right: 24px;
+}
+
+.dropdown-from, .dropdown-to {
+  height: 64px;
+  width: 200px;
+}
+
+.name {
+  height: 14px;
+  width: 43px;
+  margin: 0 0 0 8px;
+  color: #C6C6C6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+}
+
+input, select {
+  height: 40px;
+  width: 225px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form-control {
+  display: flex;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.form-control::placeholder {
+  color: rgb(243, 235, 235);
+  padding-left: 10px;
+}
+
+.convert-button {
+  background-color: #F3FF0A;
+  width: 117px;
+  height: 40px;
+  color: #1A1A1A;
+  border: none;
+  margin: 28px 0 12px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  font-family: 'Roboto', Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+.container {
+  margin: 6rem 0;
+}
+
+.switch {
+  width: 12px;
+  height: 12px;
+  margin: 39px 26px 49px 46px;
+  box-sizing: border-box;
+  color: #F3FF0A;
+  cursor: pointer;
+}
+
+.button-view-history {
+  height: 14px;
+  width: 136px;
+  opacity: 0.5;
+  color: #FFF;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+  margin: 44px 60px 0 60px;
+  text-decoration: none;
+}
+
+.result {
+  height: 78px;
+  width: 237px;
+  margin: 64px 0 0 110px;
+}
+
+.result-from {
+  height: 23px;
+  width: 69px;
+  color: #FFF;
+  font-family: 'Roboto', Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 23px
+}
+
+.result-to {
+  height: 47px;
+  width: 237px;
+  color: #FFF;
+  font-family: 'Roboto', Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.button-go-back {
+  height: 14px;
+  width: 53px;
+  opacity: 0.5;
+  color: #FFF;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0 0 40px 60px;
+  text-decoration: none;
+}
+
+.conversion-history {
+  height: 259px;
+  width: 1160px;
+  margin: 40px 60px 0 60px;
+}
+
+.names {
+  height: 14px;
+  width: 734.16px;
+  margin: 0 345.84px 28px 80px;
+  color: #C6C6C6;
+}
+
+.date {
+  height: 14px;
+  width: 25.28px;
+  color: #C6C6C6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.from {
+  height: 14px;
+  width: 28.32px;
+  color: #C6C6C6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.to {
+  height: 14px;
+  width: 14.16px;
+  color: #C6C6C6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.conversion {
+  height: 59px;
+  width: 1160px;
+  margin: 20px 0;
+  border-radius: 15px;
+  background-color: #353535;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+}
+
+.value-date, .value-from, .value-to {
+  height: 19px;
+  width: 360px;
+  color: #FFF;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Responsive Mobile design converter */
+@media screen and (max-width: 375px) {
+  .App-container {
+    height: 942px;
+    padding: 30px 221.85px 0 30px;
+  }
+
+  .hatch-studio-logo-combination- {
+    height: 25px;
+    width: 123.15px;
+  }
+
+  .headline {
+    height: 141px;
+    width: 235px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin: 75px 90px 65px 30px;
+
+  }
+
+  .converter {
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    padding: 28px 40px;
+    border-radius: 15px;
+  }
+
+  .input-field {
+    
+    margin-bottom: 20px;
+  }
+
+  .convert-button {
+    height: 40px;
+    width: 225px;
+    padding: 11px 99px 10px 99px;
+  }
+
+  input, select {
+    height: 40px;
+    width: 255px;
+  }
+
+  .name {
+    height: 14px;
+    width: 43px;
+  }
+
+  .switcher {
+    height: 12px;
+    width: 12px;
+  }
+}
